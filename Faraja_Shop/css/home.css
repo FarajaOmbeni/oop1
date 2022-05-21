@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+
+    /*DESIGNING THE HEADER*/
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.navlinks{
+    flex: 1;
+    text-align: right;
+    margin-top: -5%;
+}
+.navlinks ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.navlinks ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 13;
+    font-family: 'Akshar', sans-serif;
+}
+.navlinks ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.navlinks ul li:hover::after{
+    width: 100%;
+}
+.textbox{
+    width: 30%;
+    position: absolute;
+    top: 15%;
+    left: 63%;
+    text-align: right;
+    margin-top: -2%;
+}
+.textbox h4{
+    font-size: 17px;
+    color: rgb(231, 121, 121);
+    font-family: 'Akshar', sans-serif;
+}
+.textbox h4+p{
+    font-size: 12px;
+    color: rgb(231, 121, 121);
+    font-family: 'Akshar', sans-serif;
+}
+
+/*DESIGNING THE ANNOUNCEMENTS BANNER*/
+.shopping{
+    background-color: yellow;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.category-link{
+    text-decoration: none;
+    font-family: 'Akshar', sans-serif;
+    color: black;
+}
+.category-link:hover{
+    color: green;
+}
+.category-link::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: black;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.category-link:hover::after{
+    width: 100%;
+}
+
+/*DESIGNING THE BENEFITS AND OFFERS*/
+
+#slider {
+    overflow: hidden;
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+#slider figure img{
+    width: 20%;
+    float: left;
+}
+
+@keyframes slider{
+    0%{left: 0;}
+    20%{left: 0;}
+    25%{left: -100%;}
+    45%{left: -100%;}
+    50%{left: -200%;}
+    70%{left: -200%;}
+    75%{left: -300%;}
+    95%{left: -300%;}
+    100%{left: -400%;}
+}
+
+/*DESIGNING THE BENEFITS*/
+.benefits-announcement{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+.our-benefits{
+    border: solid;
+    margin-bottom: 20px;
+    border-color: black;
+    background-color: yellow;
+}
+.our-benefits:hover{
+    background-color: rgba(255, 255, 0, 0.845);
+}
+.benefits-announcement h1{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Akshar', sans-serif;
+    color: black;
+}
+.benefits-announcement p{
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+.benefits-list{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.benefits-col{
+    flex-basis: 31%;
+    background: pink;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.benefits-col h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    font-family: 'Akshar', sans-serif;
+}
+.benefits-col p{
+    text-align: center;
+    font-weight: 300;
+    margin: 10px 0;
+    font-family: 'Akshar', sans-serif;
+    transition: 0.5s;
+}
+.benefits-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+/*DESIGNING SHOPPING*/
+.clothes {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+#hot{
+    padding-bottom: 20px;
+    bottom: 50%;
+    font-family: 'Akshar', sans-serif;
+    font-size: 50px;
+    border: solid;
+    border-radius: 10px;
+    background: rgba(226, 0, 0, 0.7);
+}
+.clothes-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.clothes-col img{
+    width: 100%;
+    display: block;
+}
+.layer{
+    background:  transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.layer:hover{
+    background: rgba(226, 0, 0, 0.7);
+}
+.layer h1{
+    width: 100%;
+    font-weight: 500;
+    color: yellow;
+    font-size: 50px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    border: solid;
+    border-radius: 10px;
+    opacity: 0;
+    transition: 0.5s;
+    font-family: 'Akshar', sans-serif;
+}
+.layer:hover h1{
+    bottom: 49%;
+    opacity: 1;
+}
