@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/register.css">
+        <title>Registration</title>
+    </head>
+    <body>
+        <form class="registration-form" action="process_register.php" method="post">
+                <section class="registration">
+                            <ul>
+                                <br><br>
+                                <li>
+                                    <label for="fname">First Name: </label>
+                                    <input class="firstname" type="text" id="fname" name="first_name">
+                                </li><br>
+                                <li>
+                                    <label for="sname">Second Name: </label>
+                                    <input class="text" type="text" id="fname" name="first_name">
+                                </li><br>
+                                <li>
+                                    <label for="phone">Phone Number</label>
+                                    <input class="text" type="text" id="phone" name="phone_number"></li>
+                                </li><br>
+                                <li>
+                                    <label for="DoB">Date of Birth: </label>
+                                    <input class="dateofbirth" type="date" id="DoB" name="date_of_birth">
+                                </li><br>
+                                <li>
+                                    <label for="email">Email: </label>
+                                    <input class="email" type="text" id="email" name="email">
+                                </li><br>
+                                <li>
+                                <label for="phone">Phone Number</label>
+                                <input class="text" type="text" id="phone" name="phone_number"></li>
+                            </li><br>
+                            <li>
+                                <label for="password">Password: </label>
+                                <input class="password" type="password" id="password" name="password" ><br><br>
+                            </li>
+                            <li>
+                                <label for="gender">Gender: </label>
+                                <input class="gender" type="radio" id="gender" name="gender" value="M">Male
+                                <input type="radio" id="gender" name="gender" value="F">Female
+                            </li><br><br>
+                            <li><input class="btn" type="submit" value="REGISTER">
+                                <a href="login.html"><input type="button" value="LOG IN"></a>
+                            </li><br><br>
+                            </ul>
+                           
+                </section>
+        </form>
+
+
+    </body>
+</html>

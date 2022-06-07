@@ -21,7 +21,7 @@
                 <div class="navlinks">
                     <ul>
                         <li><a href="home.html">HOME</a></li>
-                        <li><a href="login.html">LOG IN</a></li>
+                        <li><a href="register.html">LOG IN</a></li>
                         <li><a href="about.html">ABOUT US</a></li>
                         <li><a href="search.html">SEARCH</a></li>
                         <li><a href="cart.html">CART</a></li>
@@ -36,29 +36,6 @@
         </section>
         
         <!--DESIGNING THE ANNOUNCEMENTS BANNER-->
-        <section class="clothes">
-            <h1 id="hot">SHOP THE HOTTEST ARRIVALS!</h1><br>
-            <div class="shopping">
-                <div class="announcement-row">
-                    <div class="catergory-col">
-                    <a class="category-link" href="categories.html"><h3>SHOP CATERGORIES.</h3>
-                        <p>Shirts, Shorts, Dresses, Suits, Handbags, and Many More!</p></a>
-                </div>
-                <div class="catergory-col">
-                    <a  class="category-link"href="men.html"><h3>MEN'S WEAR.</h3>
-                        <p>Shirts, Shorts, Suits, Shoes, and Many More!</p></a>
-                </div>
-                <div class="women.html">
-                    <a class="category-link" href=""><h3>WOMEN'S WEAR.</h3>
-                        <p>Shirts, Shorts, Suits, Shoes, and Many More!</p></a>
-                </div>
-                <div class="catergory-col">
-                    <a class="category-link" href="children.html"><h3>CHILDREN'S CORNER.</h3>
-                        <p>Shirts, Shorts, Suits, Shoes, and Many More!</p></a>
-                </div>
-            </div>
-            </div>
-        </section>
         <!--DESIGNING THE BENEFITS AND OFFERS-->
         <section>
             <div id="slider">
@@ -95,20 +72,43 @@
         </div>
 
         <!--DESIGNING SHOPPING-->
-        <div class="row">
-            <div class="clothes-col">
-                <img src="../images/formen.webp">
-                <a href="men-category.html"><div class="layer"><h1>For Men</h1></div></a>
+        <section class="clothes">
+            <h1 id="hot">SHOP THE HOTTEST ARRIVALS!</h1><br>
+            <div class="shopping">
+                <div class="row">
+                    <div class="catergory-col">
+                    <a class="category-link" href="categories.html"><h3>SHOP CATERGORIES.</h3>
+                        <p>Shirts, Shorts, Dresses, Suits, Handbags, and Many More!</p></a>
+                </div>
+                <div class="catergory-col">
+                    <a  class="category-link"href="men.html"><h3>MEN'S WEAR.</h3>
+                        <p>Shirts, Shorts, Suits, Shoes, and Many More!</p></a>
+                </div>
+                <div class="women.html">
+                    <a class="category-link" href=""><h3>WOMEN'S WEAR.</h3>
+                        <p>Shirts, Shorts, Suits, Shoes, and Many More!</p></a>
+                </div>
+                <div class="catergory-col">
+                    <a class="category-link" href="children.html"><h3>CHILDREN'S CORNER.</h3>
+                        <p>Shirts, Shorts, Suits, Shoes, and Many More!</p></a>
+                </div>
             </div>
-            <div class="clothes-col">
-                <img src="../images/forwomen.webp">
-                <a href="women-category.html"><div class="layer"><h1>For Women</h1></div></a>
             </div>
-            <div class="clothes-col">
-                <img src="../images/forkids.webp">
-                <a href="children-category.html"><div class="layer"><h1>For Kids</h1></div></a>
+            <div class="row">
+                <div class="clothes-col">
+                    <img src="../images/formen.webp">
+                    <a href="men-category.html"><div class="layer"><h1>For Men</h1></div></a>
+                </div>
+                <div class="clothes-col">
+                    <img src="../images/forwomen.webp">
+                    <a href="women-category.html"><div class="layer"><h1>For Women</h1></div></a>
+                </div>
+                <div class="clothes-col">
+                    <img src="../images/forkids.webp">
+                    <a href="children-category.html"><div class="layer"><h1>For Kids</h1></div></a>
+                </div>
             </div>
-        </div>
+        </section>
 
         <!--ADDING PRODUCTS ON THE HOMEPAGE-->
         <section class="products">
@@ -118,7 +118,7 @@
                     <img src="../images/pro_jacket.webp"> <br>
                     <h4>College Jacket - Lilac</h4>
                     <p>KSh. 3500</p>
-                    <span><a href=""><h5>SHOP NOW</h5></a><br><br></span>
+                    <a href=""><h5>SHOP NOW</h5></a><br><br>
                 </div>
                 <div class="products-col">
                     <img src="../images/pro_jaacket2.webp"> <br>
@@ -173,6 +173,11 @@
 
             <!--STAY CONNECTED-->
             <div class="footer">
+
+                <div class="social-linkss">
+                <h1>fsdffsdf</h1>  
+  
+                </div>
                 <div class="info">
                     <div class="social-links">
                         <h3>STAY CONNECTED!</h3>
@@ -208,7 +213,7 @@
                             <li><p>Subscribe to our Newsletter <br> to stay updated on new <br> promotions!</p></li><br>
                             <label for="">Email: </label><br>
                             <input type="text" id="email"> <br><br>
-                            <input class="btn" type="submit" value="REGISTER"><br>
+                            <input type="submit"><br>
                         </ul>
                     </div>
                     <div class="feedback">
@@ -220,13 +225,14 @@
                                 <input type="text" id="email" name="email" value=""><br>
                                 <label for="feedback">Feedback</label> <br>
                                 <textarea name="feeback" id="feedback" cols="30" rows="10"></textarea><br>
-                                <input class="btn" type="submit" value="SEND FEEDBACK">
+                                <input type="submit">
                             </form>
                     </div>
-                                <div class="copyright">
-                <h1>THANK YOU FOR SHOPPING WITH US!</h1>
-            </div>
                 </div>
+            </div>
+
+            <div class="copyright">
+                <h1>THANK YOU FOR SHOPPING WITH US!</h1>
             </div>
 
 
